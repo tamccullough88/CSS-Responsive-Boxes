@@ -1,12 +1,8 @@
 body {
-  background-color: blanchedalmond;
+  background-color: lightgray;
   margin: 0;
   text-align: center;
   font-size: xx-large;
-}
-
-* {
-  border: 1px solid black;
 }
 
 .container {
@@ -18,11 +14,15 @@ body {
 
 .a,
 .c {
+  background-color: rgb(185, 185, 185);
+  border: 2px solid darkgray;
   flex-grow: 1;
   margin: 2vh;
 }
 
 .b {
+  background-color: rgb(185, 185, 185);
+  border: 2px solid darkgray;
   flex-grow: 5;
   min-height: 60vh;
   margin: 2vh;
